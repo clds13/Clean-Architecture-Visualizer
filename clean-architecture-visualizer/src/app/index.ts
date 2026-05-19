@@ -40,7 +40,8 @@ program
   .command('start')
   .description('Start backend server and frontend dev server')
   .action(async () => {
-    await startCommand(app);
+    app.runGraphVerification();
+    await startCommand();
   });
 
 program

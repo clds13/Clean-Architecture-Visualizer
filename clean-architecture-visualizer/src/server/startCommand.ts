@@ -16,12 +16,7 @@ const FRONTEND_DIR = fs.existsSync(frontendPathFromSource)
 
 const API_PORT = 3131;
 
-type VerificationRunner = {
-  runGraphVerification(): void;
-};
-
-export async function startCommand(app: VerificationRunner): Promise<void> {
-  app.runGraphVerification();
+export async function startCommand(): Promise<void> {
   const backendServer = startServer();
 
   const isWindows = process.platform === "win32";
