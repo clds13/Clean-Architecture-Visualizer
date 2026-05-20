@@ -2,6 +2,7 @@ Angelina Jiang,
 Anna Myllyniemi,
 Eric Xu,
 Matthew Dahlgren,
+Raymond Wu,
 Seokjin Yoo,
 Vithu Thayalan,
 Vivian Deng
